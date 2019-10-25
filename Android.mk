@@ -34,16 +34,11 @@ LOCAL_MODULE_TAGS := optional
 
 LOCAL_PRIVILEGED_MODULE := true
 
-LOCAL_OVERRIDES_PACKAGES += Home Launcher2 Launcher3 Launcher3QuickStep
+LOCAL_OVERRIDES_PACKAGES += Home Launcher2 Launcher3 Launcher3QuickStep CarLauncher
 
-#LOCAL_USE_AAPT2 := true
+LOCAL_USE_AAPT2 := true
 
 LOCAL_PROGUARD_ENABLED := disabled
-
-#LOCAL_DEX_PREOPT := false
-
-#LOCAL_STATIC_JAVA_LIBRARIES := \
-#    androidx-constraintlayout_constraintlayout-solver
 	
 LOCAL_STATIC_ANDROID_LIBRARIES += \
     androidx.lifecycle_lifecycle-extensions \
